@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    
+    <script src='node_modules/jquery/dist/jquery.min.js'></script>
+    <script src='node_modules/underscore/underscore.js'></script>
+    <script src="core/sam.js"></script>
+
+    <!-- Large primary button -->
+	<a class="btn btn-primary btn-lg">Large primary button</a>
+	<a am-Button="primary large">Large primary button</a>
+
+	<!-- Default button -->
+	<a class="btn btn-default">Default button</a>
+	<a am-Button>Default button</a>
+
+	<!-- Small info button -->
+	<a class="btn btn-info btn-sm">Small info button</a>
+	<a am-Button="info small">Small info button</a>
+
+	<!-- Extra-small danger button -->
+	<a class="btn btn-danger btn-xs">Extra-small danger button</a>
+	<a am-Button="danger extra-small">Extra-small danger button</a>
+
+	<script>
+		SAM('am-Button*=large, am-Button=danger extra-small');
+	</script>
+</body>
+</html>
