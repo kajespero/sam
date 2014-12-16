@@ -11,9 +11,9 @@ Use case
 ==
 SAM('am-button') === $('[am-button=""]')
 
-SAM('am-button*=small') === $('[am-button*="small"]')
+"SAM('am-button *=small') === $('[am-button *="small"]')"
 
-SAM('am-Button*=large, am-Button=danger extra-small') === $('[am-button*="small"], [am-button="danger extra-small"]')
+SAM('am-Button *=large, am-Button=danger extra-small') === $('[am-button *="small"], [am-button="danger extra-small"]')
 
 
 [AMCSS]:http://amcss.github.io/
